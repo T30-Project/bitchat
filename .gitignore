@@ -79,3 +79,19 @@ build.log
 
 # Local configs
 Local.xcconfig
+
+# VS Code local environment
+.vscode/
+*.code-workspace
+
+# Local Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Project-specific logs
+*.log
+t30_debug/
+
+# OS specific (redundancy)
+.DS_Store
